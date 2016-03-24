@@ -6,73 +6,245 @@ layout: base
 
 <section id="hero">
   <div class="container">
-    <div class="host">
-      <img src="/images/host.jpg">
-      <p class="title">Автор курса</p>
-      <p class="name">Николай Воробьёв</p>
-    </div>
-    <p class="lead" id="format">Бесплатная консультация + Групповой коучинг</p>
-    <h1 class="primary">{{ page.title }}</h1>
-    <h1 class="subheadline">{{ page.subtitle }}</h1>
+    <h1 class="primary">Чувствуешь, что способен добиться многого, но&nbsp;никак не&nbsp;можешь заставить себя шевелиться?</h1>
+    <h1 class="subheadline">Тебе нужно проснуться, пока еще не&nbsp;поздно, пока ты&nbsp;еще можешь что-то изменить!</h1>
   </div>
 </section>
 
 <section id="main">
   <div class="container">
     <div class="col-md-6">
-      <p class="lead" id="offer">Первое занятие бесплатно!</p>
       <table class="features">
         <tr>
           <td class="img"><img src="/images/bulletimage1.png" /></td>
-          <td class="text">Твоя жизнь наполнится смыслом</td>
+          <td class="text"><b>Постоянно откладываешь</b> решение проблем, которые все больше давят на тебя, но понимаешь, что больше так нельзя?</td>
         </tr>
         <tr>
           <td class="img"><img src="/images/bulletimage2.png" /></td>
-          <td class="text">Ты будешь бодро вставать по утрам</td>
+          <td class="text"><b>Тебе стало страшно выходить за рамки</b>, развиваться, быть хозяином жизни, и ты предпочел комфортную и безопасную серость?</td>
         </tr>
         <tr>
           <td class="img"><img src="/images/bulletimage3.png" /></td>
-          <td class="text">Ты станешь вдохновлённым и счастливым</td>
+          <td class="text"><b>Занимаешься скучной хренью</b> вместо того, чтобы реализовывать свой потенциал?</td>
         </tr>
         <tr>
           <td class="img"><img src="/images/bulletimage4.png" /></td>
-          <td class="text">Каждое твоё действие будет направлено на осуществление твоей мечты</td>
-        </tr>
-        <tr>
-          <td class="img"><img src="/images/bulletimage5.png" /></td>
-          <td class="text">За следующие 6 месяцев ты сделаешь больше, чем за весь прошлый год</td>
-        </tr>
-        <tr>
-          <td class="img"><img src="/images/bulletimage6.png" /></td>
-          <td class="text">Ты изменишь свою жизнь и будешь с гордостью рассказывать о своих достижениях</td>
+          <td class="text"><b>Нужна затрещина,</b> которая заставит тебя проснуться и собраться с силами?</td>
         </tr>
       </table>
     </div>
     <div class="col-md-6">
-      <div class="formholder">
-        <p class="lead" id="bonus">Ограниченный набор в&nbsp;обучение!</p>
-        <p>Оставь свою заявку прямо сейчас, получи подробную информацию и&nbsp;выбери вдохновляющую цель своей жизни уже через 1-5 дней</p>
+      <div class="formholder" id="rec">
+        <p class="lead text-center" id="bonus">Поможем найти своё предназначение</p>
+        <p>Любимое дело, которое наполнит твою жизнь смыслом, вдохновит и сделает тебя счастливым</p>
         <form action="http://z.prorealnost.com/order_and_redirect.php" method="POST">
           <div class="form-group">
             <div class="form-group">
-              <label>Имя</label>
-              <input type="text" name="name" class="form-control" placeholder="Введи сюда своё имя" required="required"/>
-            </div>
-            <div class="form-group">
               <label>Email куда прислать анкету</label>
-              <input type="email" name="email" class="form-control" placeholder="Твоя электронная почта" required="required"/>
-            </div>
-            <div class="form-group">
-              <label>Телефон, по&nbsp;которому с&nbsp;тобой свяжется тренер</label>
-              <input type="text" name="phone" rules="phone" class="form-control" placeholder="Твой телефон" required="required"/>
+              <input type="email" name="email" class="form-control" placeholder="Введи свою электронную почту" required="required"/>
             </div>
           </div>
-          <button type="submit" class="btn btn-warning btn-lg btn-block"><span>Начать</span></button>
+          <button type="submit" class="btn btn-warning btn-lg btn-block"><span>Получить бесплатную консультацию</span></button>
           <input type="hidden" name="mailchimp-product-interest-id" value="a7229d70bd" />
           <input type="hidden" name="trello-list-id" value="56f008349ab301df8fb8e51e" />
           <input type="hidden" name="redirect" value="{{ site.url }}/confirm/" />
         </form>
       </div>
     </div>
+  </div>
+</section>
+
+<div class="section">
+  <div style="
+    min-width: 1000px;
+    min-height: 600px;
+    background-image: url(/images/me.jpg);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    border-bottom: solid #e0e0e0 3px;
+  ">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-offset-5 col-xs-7 bg-clouds" style="padding: 50px;">
+          <h1 style="margin-top: 0;">Тренер Николай Воробьёв</h1>
+          <ul class="fa-ul">
+            <li>
+              <i class="fa-li fa fa-check text-danger"></i>
+              Тренер и&nbsp;коуч <b>с&nbsp;12-летним стажем</b>, на&nbsp;личном примере доказавший, что жизнь можно и&nbsp;нужно брать в&nbsp;свои руки
+            </li>
+            <li>
+              <i class="fa-li fa fa-check text-danger"></i>
+              За&nbsp;время работы помог <b>15&nbsp;тысячам участников</b> стать Победителями в&nbsp;разных сферах жизни
+            </li>
+            <li>
+              <i class="fa-li fa fa-check text-danger"></i>
+              Написал и&nbsp;выпустил <b>5&nbsp;книг</b>
+            </li>
+            <li>
+              <i class="fa-li fa fa-check text-danger"></i>
+              Разработал <b>15&nbsp;эффективных тренингов</b>, с&nbsp;которыми объездил <b>20&nbsp;крупнейших городов</b> Европы и&nbsp;России
+            </li>
+            <li>
+              <i class="fa-li fa fa-check text-danger"></i>
+              <b>Владелец 4&nbsp;компаний,</b> в&nbsp;которых успешно внедрил свои программы по&nbsp;мотивации, продажам, переговорам и&nbsp;личной эффективности
+            </li>
+            <li>
+              <i class="fa-li fa fa-check text-danger"></i>
+              Тренирует с 2002 года, а <b>с&nbsp;2006 года</b> регулярно выступает на&nbsp;радио и&nbsp;телевидении в&nbsp;качестве эксперта и&nbsp;ведущего
+            </li>
+            <li>
+              <i class="fa-li fa fa-check text-danger"></i>
+              Поверь, этому человеку есть, чем поделиться с&nbsp;тобой
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section id="partners">
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-xs-6">
+        Выступал на телеканалах
+        <img src="/images/partners/channels.png" class="img-responsive" style="max-height: 87px; margin: 0 auto;"/>
+      </div>
+      <div class="col-xs-6">
+        Обучал сотрудников компаний
+        <img src="/images/partners/companies.png" class="img-responsive" style="max-height: 87px; margin: 0 auto;"/>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="pain">
+  <div class="container">
+    <h1 class="text-center">Ты такой же, как и&nbsp;миллионы других, которые:</h1>
+    <div class="row">
+      <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
+        <ul class="fa-ul">
+          <li>
+            <i class="fa-li fa fa-arrow-right text-warning"></i>
+            Перепробовали уже все занятия, но ни одно так и не пришлось по душе
+          </li>
+          <li>
+            <i class="fa-li fa fa-arrow-right text-warning"></i>
+            Никак не могут определиться с направлением в жизни
+          </li>
+          <li>
+            <i class="fa-li fa fa-arrow-right text-warning"></i>
+            Не знают, как сосредоточиться на чем-то одном
+          </li>
+          <li>
+            <i class="fa-li fa fa-arrow-right text-warning"></i>
+            Давно живут на «автомате»: будильник-работа-дом-кровать
+          </li>
+          <li>
+            <i class="fa-li fa fa-arrow-right text-warning"></i>
+            Ощущают в себе огромный потенциал, но не знают, как его реализовать
+          </li>
+          <li>
+            <i class="fa-li fa fa-arrow-right text-warning"></i>
+            Не могут вспомнить ни одного яркого события за последние 2-3-5 лет
+          </li>
+          <li>
+            <i class="fa-li fa fa-arrow-right text-warning"></i>
+            Перестали получать удовольствие от того, чем занимаются
+          </li>
+          <li>
+            <i class="fa-li fa fa-arrow-right text-warning"></i>
+            Похоронили свои мечты и реализуют чужие
+          </li>
+        </ul>
+      </div>
+    </div>
+    <p class="lead text-center">Узнаёшь здесь себя?</p>
+    <p class="text-center">Тогда можешь и дальше сидеть и ныть, как тряпка.<br/>А можешь прямо сейчас записаться на тренинг!</p>
+    <p class="text-center">
+      <a href="#main" class="btn btn-lg btn-warning">Записаться на тренинг</a>
+    </p>
+  </div>
+</section>
+
+<section class="wow">
+  <div class="container">Я заставлю шевелиться любую размазню</div>
+</section>
+
+<section class="boloto">
+  <div class="container">
+    <p>
+      Я вытащу тебя из зоны комфорта, из твоего уютного болотца, и окуну в реальный мир. Это будет страшно, тяжело, неприятно, но очень интересно!
+    </p>
+    <p>
+      Уже <b>3067 человек</b> прошли этот путь, его пройдешь и ты! А главное — уже <b>в течение 3 дней</b> ты поймешь, чего тебе не хватало, и кем ты хочешь стать.
+    </p>
+  </div>
+</section>
+
+<section class="pain">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h1 class="text-center">Что ты получишь<br/>на тренинге</h1>
+        <ul class="fa-ul">
+          <li>
+            <i class="fa-li fa fa-check fa-2x text-peter-river"></i>
+            Жесткую правду, которую обычно не принято говорить
+          </li>
+          <li>
+            <i class="fa-li fa fa-check fa-2x text-peter-river"></i>
+            Раскрытие своих слабых и сильных сторон
+          </li>
+          <li>
+            <i class="fa-li fa fa-check fa-2x text-peter-river"></i>
+            Свою личную Цель, к которой сможешь двигаться
+          </li>
+          <li>
+            <i class="fa-li fa fa-check fa-2x text-peter-river"></i>
+            Индивидуальные инструменты для движения к Цели
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <h1 class="text-center">Чего ты НЕ получишь<br/>на тренинге</h1>
+        <ul class="fa-ul">
+          <li>
+            <i class="fa-li fa fa-remove fa-2x text-danger"></i>
+            Возможности отлынивать. Каждый участник тренинга – под моим пристальным вниманием!
+          </li>
+          <li>
+            <i class="fa-li fa fa-remove fa-2x text-danger"></i>
+            Толерантности, жалости, утешений. Здесь помогают достигать успеха, а не вытирают сопли!
+          </li>
+          <li>
+            <i class="fa-li fa fa-remove fa-2x text-danger"></i>
+            Банальщины вроде «мы любим тебя таким, какой ты есть». Нет. Не любим. Мы любим успешных и целеустремленных, готовых меняться.
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="wow">
+  <div class="container">Будешь радостно вставать по утрам</div>
+</section>
+
+<section class="pain">
+  <div class="container">
+    <p>
+      Ну что, ты готов быть Победителем?
+    </p>
+    <p>
+      <b>Стать счастливым,</b> ценить каждый глоток воздуха и каждый прожитый день. <b>Заниматься делом всей жизни,</b> выкладываясь по полной, а не тянуть лямку от звонка до звонка. Иметь любящую семью и детей, которые будут гордиться тобой, а не отправят при удобном случае в дом престарелых. В конце концов, <b>самому управлять своей жизнью,</b> а не плыть по течению, как говно!
+    </p>
+    <p class="lead text-center">Ну что, берёшь жизнь в свои руки?</p>
+    <p class="text-center">
+      Или ты настолько ленив, что не можешь записаться даже на бесплатное первое занятие?
+    </p>
+    <p class="text-center">
+      <a href="#main" class="btn btn-lg btn-warning">Записаться на бесплатное первое занятие</a>
+    </p>
   </div>
 </section>
